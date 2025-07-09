@@ -1,3 +1,6 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 .alert {
     color: red;
 }
@@ -21,4 +24,13 @@
 img{
     height: max-content;
     width: 500px;
+}
+.main1{
+    color: #27368a;
+}
+.main1 .list{
+    color: aqua;
+}
+#wow{
+    color: #27368a;
 }
