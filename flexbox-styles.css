@@ -8,11 +8,23 @@
   border: 4px solid black;
 }
 
-/* this selector selects all divs inside of .flex-container */
 .flex-container .box {
   background: peachpuff;
   border: 4px solid brown;
   height: 100px;
+  width: 150px;
   flex: 1;
   margin: 5px;
+}
+
+.flex-container .two {
+    flex: 2 1 auto;
+}
+.blue{
+    margin-left: 42%;
+    margin-right: 42%;
+    border: 4px solid black;
+    background-color: black;
+    color: white;
+    flex: auto;
 }
